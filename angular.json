@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "recipebook-shoppinglist": {
@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "recipebook-shoppinglist"
+    }
+  },
+  "defaultProject": "recipebook-shoppinglist",
+  "cli": {
+    "analytics": "a5a5ab89-dcf0-4a43-885e-d012be602a82"
+  }
 }
